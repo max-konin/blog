@@ -1,0 +1,5 @@
+h3 Articles:
+
+each model as |article|
+  p
+    = article.title

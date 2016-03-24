@@ -1,0 +1,13 @@
+h3 New Article
+
+= customField
+
+form{action 'save' on='submit'}
+  .field class=model.errors.title:error
+    label Title
+    = input value=model.title
+  .field
+    label Text
+    = input value=model.text
+  button type='submit'
+    | save
